@@ -11,7 +11,7 @@ This project implements a Notification Service that supports sending notificatio
 - Queue notifications via a REST API (send_notifications.php)
 - Retrieve user notifications (get_users_notifications.php)
 - Process pending notifications synchronously (process_notifications.php)
-- Process notifications asynchronously using RabbitMQ (producer.php and consumer.php)
+- Process notifications asynchronously using RabbitMQ via Docker (producer.php and consumer.php)
 - Retry failed notifications up to 3 times
 - Notification types supported: *email, **sms, **in-app*
 
